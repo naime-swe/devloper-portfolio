@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 33px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -44,3 +47,35 @@ section{
      
     padding-right: 130px;
 }
+.experiences-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-item{
+    box-shadow: 10px 10px 40px    gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-left: 4% ;
+    padding-right: 3%;
+    padding-top:20px;
+    border-radius: 15px;
+    
+}
+#web-border1 {
+    border-left: 7px solid;
+ border-image: linear-gradient(rgb(49, 255, 159),rgb(255, 73, 225));
+ border-image-slice: 1;
+
+}
+#web-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(153, 0, 255),rgb(0, 255, 221));
+     border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+ 
